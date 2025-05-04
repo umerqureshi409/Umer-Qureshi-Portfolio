@@ -1,115 +1,73 @@
-# 🌐 Muhammad Umer Qureshi – Portfolio Website
+# Welcome to your Lovable project
 
-Welcome to the official repository of my personal **portfolio website**, built with **Vite** for blazing-fast performance and a modern development experience. This site reflects my journey, projects, and skills as a Computer Systems Engineering student at MUET Jamshoro.
+## Project info
 
-🔗 **Live Website:** [umerqureshi409githubio.vercel.app](https://umerqureshi409githubio.vercel.app)  
-📦 **Repository:** [github.com/umerqureshi409/Umer-Qureshi-Portfolio](https://github.com/umerqureshi409/Umer-Qureshi-Portfolio)
+**URL**: https://lovable.dev/projects/aceb32aa-d82f-47d5-b462-936e15d468fd
 
----
+## How can I edit this code?
 
-## 🚀 Tech Stack
+There are several ways of editing your application.
 
-- **Framework:** [Vite](https://vitejs.dev/)
-- **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** Tailwind CSS, Custom CSS
-- **Tools:** VS Code, Git, GitHub, Vercel (Deployment)
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/aceb32aa-d82f-47d5-b462-936e15d468fd) and start prompting.
 
-## 👤 About Me
+Changes made via Lovable will be committed automatically to this repo.
 
-I’m **Muhammad Umer Qureshi**, an undergraduate student of **Computer Systems Engineering** at **MUET Jamshoro (Batch 2028 | Roll No. 24CS05)**. I'm passionate about:
+**Use your preferred IDE**
 
-- 💡 IoT & Embedded Systems (ESP32, face recognition)
-- 🧠 AI/ML & Chatbot Development
-- 🧑‍💻 Full Stack Web Development
-- 🎯 Real-time & Security-Based Applications
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## ✨ Features
+Follow these steps:
 
-- Modern **Kali Linux-inspired UI**
-- Responsive and clean layout
-- Project showcase with live links
-- Resume download
-- Contact form integration
-- Optimized for speed and SEO
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 📂 Folder Structure
+# Step 3: Install the necessary dependencies.
+npm i
 
-```
-Umer-Qureshi-Portfolio/
-├── public/                 # Static assets
-├── src/
-│   ├── assets/             # Images and icons
-│   ├── components/         # Reusable components
-│   ├── App.jsx             # Root component
-│   ├── main.jsx            # Vite entry point
-│   └── styles/             # Tailwind/custom styles
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-├── package.json
-└── README.md
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
----
+**Edit a file directly in GitHub**
 
-## ⚙️ Setup Instructions
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/umerqureshi409/Umer-Qureshi-Portfolio.git
-   ```
+**Use GitHub Codespaces**
 
-2. **Navigate to the directory**
-   ```bash
-   cd Umer-Qureshi-Portfolio
-   ```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## What technologies are used for this project?
 
-4. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+This project is built with:
 
-5. **Build for production**
-   ```bash
-   npm run build
-   ```
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🧠 Projects Highlighted
+Simply open [Lovable](https://lovable.dev/projects/aceb32aa-d82f-47d5-b462-936e15d468fd) and click on Share -> Publish.
 
-- **ESP32-CAM Face Recognition System**
-- **Noteify App – Voice & Image Notes (Java + Firebase)**
-- **AI-Powered Medical OSCE Chatbot**
-- **Real-time Location Tracker using Express + Socket.io**
-- **AI-integrated Quran App (Next.js)**
+## Can I connect a custom domain to my Lovable project?
 
----
+Yes, you can!
 
-## 📬 Contact Me
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-- 📧 **Email:** aa1660025@gmail.com  
-- 📱 **Phone:** +92 321-3021673  
-- 🔗 **LinkedIn:** [linkedin.com/in/umer-qureshi](https://linkedin.com/in/umer-qureshi-526118259)  
-- 💻 **GitHub:** [github.com/umerqureshi409](https://github.com/umerqureshi409)
-
----
-
-## 📄 License
-
-This project is open-source and available under the [Apache-2.0 License](LICENSE).
-
----
-
-> Built with ♥ using Vite, by Muhammad Umer Qureshi
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
